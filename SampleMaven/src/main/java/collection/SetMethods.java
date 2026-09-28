@@ -16,6 +16,8 @@ Iterator it=x.iterator();
 while(it.hasNext()) {
 	System.out.println(it.next());
 }
+it.remove();
+System.out.println(x);
 
 	}
 
